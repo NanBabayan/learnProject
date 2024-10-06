@@ -266,3 +266,52 @@ from random import random
 # menu_elems = driver.find_element()
 # menu_elems.click()
 
+# for i in range(1500, 2701):
+#     if i % 7 == 0 and i % 5 == 0:
+#         print(i)
+
+# word = str(input("Type your word: "))
+# letters = []
+# for i in word:
+#     letters.append(i)
+# print(letters)
+
+
+
+# list_1 = [1, 3, 5]
+# list_2 = [2, 4, 6]
+# list_1.append(list_2)
+# print(list_1)
+# tuple_list = tuple(list_1)
+# print(tuple_list)
+
+
+# list_empty = []
+# list_full = [1, 2, 3, 4, 5, 6]
+#
+# for i in list_full:
+#     list_empty.append(list_full)
+# print(list_empty)
+#
+# tuple_list = tuple(list_empty)
+# print(tuple_list)
+
+# list = []
+# for i in range(0, 31):
+#     if i == 1 or i == 10:
+#         continue
+#     list.append(i)
+# print(list)
+
+
+list = [1, 2, 3, 4]
+# list.pop(-1)
+# list.pop(-1)
+# print(list)
+if len(list) >= 5:
+    print(tuple(list))
+else:
+    print(set(list))
+
+
+

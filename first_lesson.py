@@ -312,6 +312,7 @@ if len(list) >= 5:
     print(tuple(list))
 else:
     print(set(list))
+    print(tuple(list))
 
 
 
